@@ -19,7 +19,7 @@ pipeline
 			steps
 			{
 				withAnt(installation: 'defaultAnt', jdk: 'javaJDK') {
-				    sh 'init'
+				    sh 'ant init'
 				}
 			}
 
